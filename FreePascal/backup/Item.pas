@@ -20,6 +20,8 @@ type
 
 implementation
 
+{uses
+  System;  already in Mode delphi maybe}
 uses
   SysUtils;
 

@@ -1,29 +1,26 @@
 unit GildedRose;
 
-{$MODE Delphi}
-
 interface
 
 uses
-  fgl,
-  Item{,
-  System.Generics.Collections};
+  Item,
+  System.Generics.Collections;
 
 type
   TGildedRose = class(TObject)
   private
-    FItems: TFPGObjectList<TItem>;
+    FItems: TObjectList<TItem>;
   public
-    constructor Create(const AItems: TFPGObjectList<TItem>);
+    constructor Create(const AItems: TObjectList<TItem>);
     procedure UpdateQuality;
-    property Items: TFPGObjectList<TItem> read FItems;
+    property Items: TObjectList<TItem> read FItems;
   end;
 
 implementation
 
 { TGildedRose }
 
-constructor TGildedRose.Create(const AItems: TFPGObjectList<TItem>);
+constructor TGildedRose.Create(const AItems: TObjectList<TItem>);
 begin
   inherited Create;
   FItems := AItems;

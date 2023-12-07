@@ -50,7 +50,6 @@ end;
 procedure TTestCaseGC.TearDown;
 begin
   LGildedRose.Free;
-
 end;
 
 initialization

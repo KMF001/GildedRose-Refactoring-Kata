@@ -1,7 +1,5 @@
 unit Item;
 
-{$MODE Delphi}
-
 interface
 
 type
@@ -21,7 +19,7 @@ type
 implementation
 
 uses
-  SysUtils;
+  System.SysUtils;
 
 { TItem }
 

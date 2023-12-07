@@ -31,18 +31,19 @@ type
 implementation
 
 procedure TTestCaseGC.TestHookUp;
+var
 begin
-
-  LItems := specialize TFPGObjectList<TItem>.Create;
+  Fail('Write your own test');
 
   LGildedRose.UpdateQuality;
 
-  AssertEquals('fixme', LGildedRose.Items[0].Name);
+  Assert.AreEqual('fixme', LGildedRose.Items[0].Name);
 
 end;
 
 procedure TTestCaseGC.SetUp;
 begin
+  LItems := TFPGObjectList<TItem>.Create;
   LItems.Add(TItem.Create('foo', 0, 0));
   LGildedRose := TGildedRose.Create(LItems);
 end;
@@ -50,7 +51,6 @@ end;
 procedure TTestCaseGC.TearDown;
 begin
   LGildedRose.Free;
-
 end;
 
 initialization
