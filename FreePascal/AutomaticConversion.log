@@ -1,14 +1,8 @@
-UnitTests.lpi Note: Added defines -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL in custom options
  Progress: Found all unit files
-UnitTests.lpr(1,19) Note: Added MODE Delphi syntax modifier after unit name.
+TextTestFixture.lpr(1,25) Note: Added MODE Delphi syntax modifier after unit name.
  : 
  : *** Converting unit files belonging to project/package ***
-GildedRoseTests.pas(1,22) Note: Added MODE Delphi syntax modifier after unit name.
- : 
- : *** Converting unit files found during conversion ***
-GildedRose.pas(1,17) Note: Added MODE Delphi syntax modifier after unit name.
-Item.pas(1,11) Note: Added MODE Delphi syntax modifier after unit name.
  : 
  : *** Fixing used units and Repairing form files ***
- Progress: Conversion took: 00:00:18
+ Progress: Conversion took: 00:00:28
  : Conversion Ready.

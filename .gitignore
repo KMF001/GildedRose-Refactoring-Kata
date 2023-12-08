@@ -11,3 +11,5 @@ FreePascal/backup/
 FreePascal/backup/
 *.compiled
 *.obj
+*.ppu
+*.compiled

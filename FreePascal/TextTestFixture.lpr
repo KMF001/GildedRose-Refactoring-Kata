@@ -1,25 +1,38 @@
 program TextTestFixture;
 
-{$APPTYPE CONSOLE}
+//{$MODE Delphi}
 
-{$R *.res}
+//{$APPTYPE CONSOLE}
+
+//{$R *.res}
+
+{$mode objfpc}{$H+}
 
 uses
-  System.SysUtils,
-  System.Generics.Collections,
+  {$IFDEF UNIX}
+  cthreads,
+  {$ENDIF}
+  Classes, SysUtils, CustApp,
+//  { you can add units after this };
+//
+//uses
+//  SysUtils,
+  fgl, //  System.Generics.Collections,}
   GildedRose in 'GildedRose.pas',
   Item in 'Item.pas';
 
+type
+  TItemList = specialize TFPGObjectList<TItem>;
 var
   Days, ErrorCode, I, J: Integer;
-  Items: TObjectList<TItem>;
+  Items: TItemList;
   App: TGildedRose;
 
 begin
   try
     Writeln('OMGHAI!');
 
-    Items := TObjectList<TItem>.Create;
+    Items := TItemList.Create;
     Items.Add(TItem.Create('+5 Dexterity Vest', 10, 20));
     Items.Add(TItem.Create('Aged Brie', 2, 0));
     Items.Add(TItem.Create('Elixir of the Mongoose', 5, 7));
@@ -54,4 +67,5 @@ begin
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
   end;
+
 end.

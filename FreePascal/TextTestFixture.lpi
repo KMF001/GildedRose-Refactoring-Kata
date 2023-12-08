@@ -5,12 +5,13 @@
     <PathDelim Value="\"/>
     <General>
       <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
         <MainUnitHasCreateFormStatements Value="False"/>
         <MainUnitHasTitleStatement Value="False"/>
         <MainUnitHasScaledStatement Value="False"/>
       </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="UnitTests"/>
+      <Title Value="TextTestFixture"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -26,16 +27,12 @@
     </RunParams>
     <RequiredPackages>
       <Item>
-        <PackageName Value="FCL"/>
+        <PackageName Value="LCL"/>
       </Item>
     </RequiredPackages>
     <Units>
       <Unit>
-        <Filename Value="UnitTests.lpr"/>
-        <IsPartOfProject Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="GildedRoseTests.pas"/>
+        <Filename Value="TextTestFixture.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
@@ -51,13 +48,15 @@
   <CompilerOptions>
     <Version Value="11"/>
     <PathDelim Value="\"/>
-    <Target>
-      <Filename Value="UnitTests"/>
-    </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+      </SyntaxOptions>
+    </Parsing>
     <Linking>
       <Debugging>
         <DebugInfoType Value="dsDwarf3"/>
