@@ -10,3 +10,9 @@ Group project file, GildedRoseKata.lpg, requires https://wiki.freepascal.org/Pro
 * Open the project group `GildedRoseKata.lpg`.
 * Build and run the `TextTestFixture.exe` for the text output tests.
 * Build and run the `UnitTests.exe` project to execute the unit tests.
+## Related
+
+Here are some useful references to how this stuff works in Free Pascal.
+
+[Generics in Free Pascal](https://wiki.freepascal.org/Generics)
+
