@@ -5,9 +5,8 @@ unit GildedRose;
 interface
 
 uses
-  fgl,
-  Item{,
-  System.Generics.Collections};
+  fgl,{System.Generics.Collections}
+  Item;
 
 type
   TGildedRose = class(TObject)

@@ -8,14 +8,14 @@ type
   TItem = class(TObject)
   private
     FName: string;
-    FSellIn: Integer;
-    FQuality: Integer;
+    FSellIn: integer;
+    FQuality: integer;
   public
-    constructor Create(const AName: string; const ASellIn, AQuality: Integer);
+    constructor Create(const AName: string; const ASellIn, AQuality: integer);
     function ToString: string; override;
     property Name: string read FName write FName;
-    property SellIn: Integer read FSellIn write FSellIn;
-    property Quality: Integer read FQuality write FQuality;
+    property SellIn: integer read FSellIn write FSellIn;
+    property Quality: integer read FQuality write FQuality;
   end;
 
 implementation
@@ -25,7 +25,7 @@ uses
 
 { TItem }
 
-constructor TItem.Create(const AName: string; const ASellIn, AQuality: Integer);
+constructor TItem.Create(const AName: string; const ASellIn, AQuality: integer);
 begin
   inherited Create;
   FName := AName;

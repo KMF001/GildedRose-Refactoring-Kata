@@ -16,6 +16,7 @@ uses
 
 type
   TMyList = specialize TFPGObjectList<TItem>;
+
   TTestGuildedRose = class(TTestCase)
   private
     LItems: TMyList;
@@ -32,7 +33,7 @@ implementation
 procedure TTestGuildedRose.TestHookUp;
 begin
   LGildedRose.UpdateQuality;
-  AssertEquals('foo', LGildedRose.Items[0].Name);
+  AssertEquals('fixme', LGildedRose.Items[0].Name);
 end;
 
 procedure TTestGuildedRose.SetUp;

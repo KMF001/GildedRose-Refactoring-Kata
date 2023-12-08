@@ -31,11 +31,12 @@ end;
 
 procedure TGildedRose.UpdateQuality;
 var
-  I: Integer;
+  I: integer;
 begin
   for I := 0 to Items.Count - 1 do
   begin
-    if (Items[I].Name <> 'Aged Brie') and (Items[I].Name <> 'Backstage passes to a TAFKAL80ETC concert') then
+    if (Items[I].Name <> 'Aged Brie') and (Items[I].Name <>
+      'Backstage passes to a TAFKAL80ETC concert') then
     begin
       if Items[I].Quality > 0 then
       begin
