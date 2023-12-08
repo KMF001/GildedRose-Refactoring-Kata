@@ -31,13 +31,8 @@ implementation
 
 procedure TTestGuildedRose.TestHookUp;
 begin
-//  Fail('Write your own test');
-
-
   LGildedRose.UpdateQuality;
-
-  AssertEquals('fixme', LGildedRose.Items[0].Name);
-
+  AssertEquals('foo', LGildedRose.Items[0].Name);
 end;
 
 procedure TTestGuildedRose.SetUp;

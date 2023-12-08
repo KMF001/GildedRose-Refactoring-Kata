@@ -32,7 +32,6 @@ implementation
 procedure TTestGuildedRose.TestHookUp;
 begin
   LGildedRose.UpdateQuality;
-
   AssertEquals('fixme', LGildedRose.Items[0].Name);
 end;
 

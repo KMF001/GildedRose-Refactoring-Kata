@@ -8,7 +8,6 @@
       <Unit>
         <Filename Value="UnitTests_GUI.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <CursorPos Y="20"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -16,10 +15,11 @@
       <Unit>
         <Filename Value="GildedRoseTests.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="20"/>
-        <CursorPos Y="37"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="85" Y="35"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Item.pas"/>
@@ -33,10 +33,12 @@
       <Unit>
         <Filename Value="GildedRose.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="75"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="39"/>
         <CursorPos Y="107"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
@@ -46,7 +48,24 @@
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory HistoryIndex="3">
+      <Position>
+        <Filename Value="UnitTests_GUI.lpr"/>
+        <Caret Line="20"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRoseTests.pas"/>
+        <Caret Line="37" Column="37" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRoseTests.pas"/>
+        <Caret Line="36" Column="37" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRoseTests.pas"/>
+        <Caret Line="35" Column="22" TopLine="16"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
