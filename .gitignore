@@ -7,3 +7,7 @@ vendor
 *.iml
 **/*.received.*
 venv
+FreePascal/backup/
+FreePascal/backup/
+*.compiled
+*.obj

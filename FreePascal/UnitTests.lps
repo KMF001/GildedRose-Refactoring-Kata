@@ -8,35 +8,26 @@
       <Unit>
         <Filename Value="UnitTests.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos Y="28"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="26" Y="28"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="GildedRoseTests.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="13"/>
-        <CursorPos X="15" Y="58"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="backup\GildedRoseTests.pas"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="13"/>
-        <CursorPos X="7" Y="10"/>
-        <UsageCount Value="10"/>
+        <TopLine Value="25"/>
+        <CursorPos Y="38"/>
+        <UsageCount Value="20"/>
       </Unit>
       <Unit>
         <Filename Value="GildedRose.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="46"/>
         <CursorPos X="13" Y="15"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Item.pas"/>
@@ -45,6 +36,13 @@
         <TopLine Value="7"/>
         <CursorPos Y="23"/>
         <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="backup\GildedRoseTests.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="7" Y="10"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
@@ -73,128 +71,10 @@
     <Debugger>
       <Backend Value="{1ACA0483-9B63-43EE-A54A-96B0886253E5}"/>
     </Debugger>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="20" Column="13" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="13" Column="53" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="35" Column="69" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="23" Column="13" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="14" Column="6" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="23" Column="27" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="29" Column="30" TopLine="9"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="23" Column="13" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="30" Column="3" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="24" Column="18" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="15" Column="13" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="22"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="23" TopLine="15"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="21" Column="13" TopLine="4"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="39" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="37" Column="20" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="21" Column="27" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="21" Column="24" TopLine="4"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="37" Column="24" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="41" Column="7" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="40" Column="8" TopLine="18"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="11" Column="9"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="40" Column="3" TopLine="23"/>
-      </Position>
-      <Position>
-        <Filename Value="UnitTests.lpr"/>
-        <Caret Line="21"/>
-      </Position>
-      <Position>
-        <Filename Value="UnitTests.lpr"/>
-        <Caret Line="22"/>
-      </Position>
-      <Position>
-        <Filename Value="UnitTests.lpr"/>
-        <Caret Line="23"/>
-      </Position>
-      <Position>
-        <Filename Value="UnitTests.lpr"/>
-        <Caret Line="24"/>
-      </Position>
-      <Position>
-        <Filename Value="UnitTests.lpr"/>
-        <Caret Line="25"/>
-      </Position>
-      <Position>
-        <Filename Value="UnitTests.lpr"/>
-        <Caret Line="28"/>
-      </Position>
-      <Position>
-        <Filename Value="GildedRoseTests.pas"/>
-        <Caret Line="36" TopLine="19"/>
-      </Position>
-    </JumpHistory>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
@@ -220,8 +100,8 @@
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
-        <Source Value="UnitTests.lpr"/>
-        <Line Value="28"/>
+        <Source Value="GildedRoseTests.pas"/>
+        <Line Value="38"/>
       </Item>
     </BreakPoints>
   </Debugging>

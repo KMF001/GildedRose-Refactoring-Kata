@@ -11,12 +11,12 @@ uses
   testutils,
   testregistry,
   fgl,
-  Item,
-  GildedRose;
+  GildedRose,
+  Item;
 
 type
 
-  TTestCaseGC = class(TTestCase)
+  TTestGuildedRose = class(TTestCase)
   private
     LItems: specialize TFPGObjectList<TItem>;
     LGildedRose: TGildedRose;
@@ -24,15 +24,14 @@ type
     procedure SetUp; override;
     procedure TearDown; override;
   published
-
     procedure TestHookUp;
   end;
 
 implementation
 
-procedure TTestCaseGC.TestHookUp;
+procedure TTestGuildedRose.TestHookUp;
 begin
-
+//  Fail('Write your own test');
   LItems := specialize TFPGObjectList<TItem>.Create;
 
   LGildedRose.UpdateQuality;
@@ -41,19 +40,18 @@ begin
 
 end;
 
-procedure TTestCaseGC.SetUp;
+procedure TTestGuildedRose.SetUp;
 begin
   LItems.Add(TItem.Create('foo', 0, 0));
   LGildedRose := TGildedRose.Create(LItems);
 end;
 
-procedure TTestCaseGC.TearDown;
+procedure TTestGuildedRose.TearDown;
 begin
   LGildedRose.Free;
-
 end;
 
 initialization
 
-  RegisterTest(TTestCaseGC);
+  RegisterTest(TTestGuildedRose);
 end.
