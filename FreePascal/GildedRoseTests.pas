@@ -15,10 +15,10 @@ uses
   Item;
 
 type
-
+  TMyList = specialize TFPGObjectList<TItem>;
   TTestGuildedRose = class(TTestCase)
   private
-    LItems: specialize TFPGObjectList<TItem>;
+    LItems: TMyList;
     LGildedRose: TGildedRose;
   protected
     procedure SetUp; override;
@@ -32,7 +32,6 @@ implementation
 procedure TTestGuildedRose.TestHookUp;
 begin
 //  Fail('Write your own test');
-  LItems := specialize TFPGObjectList<TItem>.Create;
 
   LGildedRose.UpdateQuality;
 
@@ -42,6 +41,7 @@ end;
 
 procedure TTestGuildedRose.SetUp;
 begin
+  LItems := TMyList.Create;
   LItems.Add(TItem.Create('foo', 0, 0));
   LGildedRose := TGildedRose.Create(LItems);
 end;
