@@ -8,7 +8,7 @@
       <Unit>
         <Filename Value="UnitTests_GUI.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="71" Y="16"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -17,8 +17,8 @@
         <Filename Value="GildedRoseTests.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="23"/>
-        <CursorPos Y="38"/>
+        <TopLine Value="20"/>
+        <CursorPos Y="33"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -34,14 +34,22 @@
       <Unit>
         <Filename Value="GildedRose.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="73"/>
-        <CursorPos X="19" Y="102"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="75"/>
+        <CursorPos Y="107"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1060"/>
+        <CursorPos Y="1079"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="7">
+    <JumpHistory HistoryIndex="28">
       <Position>
         <Filename Value="GildedRose.pas"/>
         <Caret Line="79" Column="16" TopLine="71"/>
@@ -74,21 +82,94 @@
         <Filename Value="GildedRoseTests.pas"/>
         <Caret Line="47" TopLine="23"/>
       </Position>
+      <Position>
+        <Filename Value="GildedRoseTests.pas"/>
+        <Caret Line="36" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRoseTests.pas"/>
+        <Caret Line="45" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRoseTests.pas"/>
+        <Caret Line="36" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="35" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="36" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="38" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="40" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="74" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="76" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="79" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="81" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="83" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="85" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="36" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRose.pas"/>
+        <Caret Line="107" TopLine="75"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRoseTests.pas"/>
+        <Caret Line="42" Column="30" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRoseTests.pas"/>
+        <Caret Line="39" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="GildedRoseTests.pas"/>
+        <Caret Line="40" Column="6" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
+        <Caret Line="1077" TopLine="1060"/>
+      </Position>
+      <Position>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
+        <Caret Line="1078" TopLine="1060"/>
+      </Position>
+      <Position>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\fgl.pp"/>
+        <Caret Line="1079" TopLine="1060"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
-  <Debugging>
-    <BreakPoints>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="GildedRoseTests.pas"/>
-        <Line Value="45"/>
-      </Item>
-    </BreakPoints>
-  </Debugging>
 </CONFIG>

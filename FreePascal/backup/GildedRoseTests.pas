@@ -32,7 +32,7 @@ implementation
 procedure TTestGuildedRose.TestHookUp;
 begin
 //  Fail('Write your own test');
-  LItems := TMyLIst.Create;
+
 
   LGildedRose.UpdateQuality;
 
@@ -42,7 +42,7 @@ end;
 
 procedure TTestGuildedRose.SetUp;
 begin
-  LItems
+  LItems := TMyList.Create;
   LItems.Add(TItem.Create('foo', 0, 0));
   LGildedRose := TGildedRose.Create(LItems);
 end;
