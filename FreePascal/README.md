@@ -1,13 +1,12 @@
-# Delphi port of the Gilded-Rose Kata
-This is a Delphi port of the *Gilded-Rose-Kata*.
+# Free Pascal port of the Gilded-Rose Kata
+This is a Free Pascal version of the Delphi port of the *Gilded-Rose-Kata*.
 
 ## Version Compatibility
-The project files are written in Delphi 10.3.3 therefore require 10.3 or later.
-That said, the actual code should be compatible back to Delphi 2010 as the unit
-tests are written in [DUnitX](https://github.com/VSoftTechnologies/DUnitX) which
-requires Delphi 2010 or later.
+The project files are written in Lazarus 2.2.6.
+
+Group project file, GildedRoseKata.lpg, requires https://wiki.freepascal.org/Project_Groups package to be installed into to the Lazarus IDE.
 
 ## Building and Running
-* Open the project group `GildedRose.groupproj`.
+* Open the project group `GildedRoseKata.lpg`.
 * Build and run the `TextTestFixture.exe` for the text output tests.
 * Build and run the `UnitTests.exe` project to execute the unit tests.
